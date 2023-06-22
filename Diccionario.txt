@@ -1,0 +1,35 @@
+------------VARIABLES GLOBALES---------
+**se ubican en la clase principal "pedmisan"**
+
+    //Multifunción
+-A : String, almacén de los errores.
+-TE : String[] , Tipos de errores
+
+
+    //Ocupadas para la Semántica
+-Objeto_Variable : Cache, variable de respalto fluctuante
+-Type : String , tipo de dato.
+-Valor : String, Etiqueta de la variable.
+-lugar : String , lugar donde se puede producir un error.
+-ParOrdenado : ArrayList<ParOrd> , objeto que almacena las variables
+                que ingresa el usuario.
+
+
+    //Ocupadas para la Generación de Código Intermedio
+-ruta : String , ruta del documento a donde se generara el CI.
+-codigo_aritmetico : CTDOA , CODIGO de TRES DIRECCIONES para OPERCIONES ARITMETICAS.
+-ECI : EscrituraCI , escribe el CI generado
+-CI : String , almacen local del codigo intermedio.
+-IGCI : String , Id actual del cual se esta generanco del CI.
+-label : int , entero unico para la ubicacion del puntero para
+        una posicion especifica del codigo.
+-aplicaGCI: boolean , autoriza la generacion de codigo intermedio.
+-vigilanteId: booleann , valida que la instruccion sea correcta;        
+
+
+    //Ocupadas para Optimización
+-valor_fijo: boolean, valida si la asignación de una variable consta de valores fijos.
+
+    //comando para ejecucion
+-Call: String, comando para ejecutar el codigo compilado
+-trans: W_CPlusPlus, Objecto que escrito sobre codigo c++

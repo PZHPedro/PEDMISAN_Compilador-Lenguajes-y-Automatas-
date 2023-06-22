@@ -1,0 +1,41 @@
+Inicio
+
+Num A;
+Num B;
+Impr : 'Ingrese el primero valor numerico';
+Entr 
+Impr : 'Ingrese el segundo valor numerico';
+Entr : ;
+
+Num C = A + B;
+Num I = 1;
+Repetir I < 6 : I + 1 {
+    Impr : I ~ ' La suma es: ' ~ C;
+}
+
+C = A - B;
+I = 1;
+
+Repetir I < 6 : I + 1 {
+    Impr : I ~ ' La resta es: ' ~ C;
+}
+
+C = A * B;
+I = 1;
+Repetir I < 6 : I + 1 {
+    Impr  I ~ ' El producto es: ' ~ C
+}
+
+C = A / B;
+I = 1;
+Repetir I < 6 : I + 1 {
+    Impr : I ~ ' El cociente es: ' ~ C;
+}
+
+C = Mod : A , B;
+I = 1;
+Repetir I < 6 : I + 1 {
+    Impr : I ~ ' El residuo es: ' ~ C;
+}
+
+Fin

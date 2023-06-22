@@ -1,0 +1,59 @@
+Type  Values
+Num   Y
+
+Type  Values
+Bool   Z
+
+OP  v1  V2  R   
+        0    Y
+
+Type  Values
+Num   A
+
+Type  Values
+Num   B
+
+Type  Values
+Num   C
+
+Type  Values
+Num   D
+
+Type  Values
+Num   I
+
+OP  v1  V2  R   
+        0    I
+
+Label1
+Bucle {
+
+OP  v1  V2  R   
+        A    Y
+
+OP  v1  V2  R   
+        B    A
+
+OP  v1  V2  R   
+        Y    B
+
+OP  v1  V2  R   
+        B    Y
+
+OP  v1  V2  R   
+        C    B
+
+OP  v1  V2  R   
+        Y    C
+
+OP  v1  V2  R   
+        C    Y
+
+OP  v1  V2  R   
+        D    C
+
+OP  v1  V2  R   
+        Y    D
+
+} goto Label1
+Label2

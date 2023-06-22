@@ -1,0 +1,22 @@
+Inicio
+
+Cad S;
+Cad S1;
+
+Impr : 'Ingrese una palabra';
+Entr : S;
+Impr : 'Ingrese una segunda palabra';
+Entr : S1;
+
+Si S == S1 {
+    Impr : 'Las dos palabras son iguales';
+}
+Si S != S1 {
+    Impr : 'Las dos palabras son diferentes';
+}
+
+S = S ~ ' ' ~ S1;
+
+Impr : 'La union de las palabras es: ' ~ S;
+
+Fin

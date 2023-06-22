@@ -1,0 +1,54 @@
+Inicio 
+
+Num Y;
+Bool Z = Falso;
+
+Y = 0;
+
+Num A;
+Num B;
+Num C;
+Num D;
+Num I = 0;
+
+Impr : 'Ingresa un digito';
+Entr : A;
+Impr : 'Ingresa un digito';
+Entr : B;
+Impr : 'Ingresa un digito';
+Entr : C;
+Impr : 'Ingresa un digito';
+Entr : D;
+
+Bucle {
+
+    Z = Falso;
+
+    Si A < B {
+        Y = A ;
+        A = B ;
+        B = Y ;
+        Z = Verdadero;
+    }
+    Si B < C {
+        Y= B ;
+        B= C ;
+        C= Y ;
+        Z = Verdadero;
+    }
+
+    Si C < D {
+        Y= C ;
+        C= D ;
+        D= Y ;
+        Z = Verdadero;
+    }
+
+    Si Z == Falso {
+        Romper;
+    }
+}
+
+Impr : A ~ ' ' ~ B ~ ' ' ~ C ~ ' ' ~ D;
+
+Fin
